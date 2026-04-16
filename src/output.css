@@ -237,8 +237,23 @@
   .h-\[341px\] {
     height: 341px;
   }
+  .h-\[381px\] {
+    height: 381px;
+  }
   .h-\[400px\] {
     height: 400px;
+  }
+  .h-\[401px\] {
+    height: 401px;
+  }
+  .h-\[441px\] {
+    height: 441px;
+  }
+  .h-\[443px\] {
+    height: 443px;
+  }
+  .h-\[473px\] {
+    height: 473px;
   }
   .w-\[2\] {
     width: 2;
@@ -255,8 +270,17 @@
   .w-\[310px\] {
     width: 310px;
   }
+  .w-\[311px\] {
+    width: 311px;
+  }
+  .w-\[330px\] {
+    width: 330px;
+  }
   .w-\[346px\] {
     width: 346px;
+  }
+  .w-\[376px\] {
+    width: 376px;
   }
   .w-\[459px\] {
     width: 459px;
@@ -318,8 +342,14 @@
   .gap-\[250px\] {
     gap: 250px;
   }
+  .gap-y-\[15px\] {
+    row-gap: 15px;
+  }
   .gap-y-\[20px\] {
     row-gap: 20px;
+  }
+  .gap-y-\[25px\] {
+    row-gap: 25px;
   }
   .gap-y-\[30px\] {
     row-gap: 30px;
@@ -352,11 +382,20 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-\[\#9F3919\] {
+    background-color: #9F3919;
+  }
   .bg-\[\#5454D4\] {
     background-color: #5454D4;
   }
   .bg-\[\#F7F7FB\] {
     background-color: #F7F7FB;
+  }
+  .bg-\[\#F8F8F8\] {
+    background-color: #F8F8F8;
+  }
+  .bg-\[\#FF7143\] {
+    background-color: #FF7143;
   }
   .bg-\[rgba\(84\,84\,212\,1\)\] {
     background-color: rgba(84,84,212,1);
@@ -364,11 +403,17 @@
   .bg-\[rgba\(255\,113\,67\,1\)\] {
     background-color: rgba(255,113,67,1);
   }
+  .bg-\[white\] {
+    background-color: white;
+  }
   .bg-blue-600 {
     background-color: var(--color-blue-600);
   }
   .bg-red-600 {
     background-color: var(--color-red-600);
+  }
+  .bg-white {
+    background-color: var(--color-white);
   }
   .p-\[10px\] {
     padding: 10px;
@@ -394,11 +439,17 @@
   .text-\[17px\] {
     font-size: 17px;
   }
+  .text-\[18px\] {
+    font-size: 18px;
+  }
   .text-\[20px\] {
     font-size: 20px;
   }
   .text-\[24px\] {
     font-size: 24px;
+  }
+  .text-\[28px\] {
+    font-size: 28px;
   }
   .text-\[30px\] {
     font-size: 30px;
@@ -442,6 +493,9 @@
   .text-\[\#696871\] {
     color: #696871;
   }
+  .text-\[\#FFFFFFB2\] {
+    color: #FFFFFFB2;
+  }
   .text-\[rgba\(105\,104\,113\,1\)\] {
     color: rgba(105,104,113,1);
   }
@@ -459,6 +513,20 @@
     &:hover {
       @media (hover: hover) {
         background-color: #3b3b92;
+      }
+    }
+  }
+  .hover\:bg-\[\#9F3919\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #9F3919;
+      }
+    }
+  }
+  .hover\:bg-\[\#581d0b\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #581d0b;
       }
     }
   }
@@ -480,6 +548,13 @@
     &:hover {
       @media (hover: hover) {
         background-color: rgba(255,113,67,1);
+      }
+    }
+  }
+  .hover\:text-white {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-white);
       }
     }
   }
