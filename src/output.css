@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-600: oklch(57.7% 0.245 27.325);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -206,6 +207,9 @@
   .h-\[281px\] {
     height: 281px;
   }
+  .h-\[300px\] {
+    height: 300px;
+  }
   .h-\[301px\] {
     height: 301px;
   }
@@ -218,11 +222,20 @@
   .h-\[341px\] {
     height: 341px;
   }
+  .h-\[400px\] {
+    height: 400px;
+  }
   .w-\[2\] {
     width: 2;
   }
   .w-\[211px\] {
     width: 211px;
+  }
+  .w-\[307px\] {
+    width: 307px;
+  }
+  .w-\[310px\] {
+    width: 310px;
   }
   .w-\[459px\] {
     width: 459px;
@@ -281,6 +294,9 @@
   .gap-y-\[20px\] {
     row-gap: 20px;
   }
+  .gap-y-\[30px\] {
+    row-gap: 30px;
+  }
   .gap-y-\[50px\] {
     row-gap: 50px;
   }
@@ -303,6 +319,9 @@
   .bg-blue-600 {
     background-color: var(--color-blue-600);
   }
+  .bg-red-600 {
+    background-color: var(--color-red-600);
+  }
   .p-\[10px\] {
     padding: 10px;
   }
@@ -315,14 +334,23 @@
   .py-\[200px\] {
     padding-block: 200px;
   }
+  .text-center {
+    text-align: center;
+  }
   .text-\[15px\] {
     font-size: 15px;
+  }
+  .text-\[16px\] {
+    font-size: 16px;
   }
   .text-\[17px\] {
     font-size: 17px;
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-\[24px\] {
+    font-size: 24px;
   }
   .text-\[30px\] {
     font-size: 30px;
